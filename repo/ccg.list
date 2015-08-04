@@ -1,0 +1,7 @@
+# Centre for Comparative Genomics Ubuntu package repository
+deb http://repo.ccgapps.com.au/repo/ccg/ubuntu ccg ccg
+deb-src http://repo.ccgapps.com.au/repo/ccg/ubuntu ccg ccg
+
+# Staging area for unreleased versions
+# deb http://repo.ccgapps.com.au/repo/ccg/ubuntu ccg-staging ccg
+# deb-src http://repo.ccgapps.com.au/repo/ccg/ubuntu ccg-staging ccg

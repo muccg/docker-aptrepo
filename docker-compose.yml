@@ -1,0 +1,20 @@
+# data only container pattern
+data:
+  image: muccg/debian8-base:latest
+  volumes:
+    - data/dev:/data
+
+createrepo:
+  build: .
+  #command: initrepo
+  #command: downloadallrepos
+  #command: updaterepo xxx
+  #command: uploadrepo
+  command: update
+  environment:
+    - SYNC_DELETE=1
+    - SYNC_FORCE=1
+    - SYNC_DRYRUN=1
+    - KEY_ID=5CDBB581
+  volumes_from:
+    - data

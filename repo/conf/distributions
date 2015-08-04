@@ -1,0 +1,10 @@
+Origin: CCG
+Label: CCG
+Suite: ccg
+Codename: ccg
+Version: 3.0
+Architectures: amd64 source
+Components: ccg
+Description: CCG Ubuntu Packages
+#Update: debian non-US security
+#SignWith: KEYID

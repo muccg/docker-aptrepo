@@ -1,0 +1,4 @@
+Name: ccg
+IncomingDir: /data/repo/incoming
+TempDir: /data/repo/tmp
+Default: ccg
