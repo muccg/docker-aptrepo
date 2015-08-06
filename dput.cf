@@ -1,0 +1,10 @@
+[DEFAULT]
+default_host_main = ccg
+
+[ccg]
+fqdn = staging.ccgapps.com.au
+method = scp
+login = ubuntu
+incoming = /data/aptrepo/repo/incoming
+post_upload_command = ssh ubuntu@staging.ccgapps.com.au 'aptrepo update'
+

@@ -8,3 +8,5 @@ Components: ccg
 Description: CCG Ubuntu Packages
 #Update: debian non-US security
 #SignWith: KEYID
+DebOverride: override.ccg
+DscOverride: override.ccg
